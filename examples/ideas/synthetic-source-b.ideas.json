@@ -1,0 +1,14 @@
+[
+  {
+    "idea": "SYNTHETIC EXAMPLE CLAIM: card-based indexing schemes anticipate some structural features later associated with hypertext systems.",
+    "where_stated": "Abstract, first paragraph",
+    "theme": "indexing-history",
+    "priority": 1
+  },
+  {
+    "idea": "SYNTHETIC EXAMPLE CLAIM: retrieval order, not just storage structure, determines how usable a demonstration indexing scheme is.",
+    "where_stated": "Abstract, second paragraph",
+    "theme": "retrieval-order",
+    "priority": 2
+  }
+]

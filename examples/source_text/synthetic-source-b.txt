@@ -1,0 +1,26 @@
+SYNTHETIC EXAMPLE TEXT -- NOT A REAL PUBLICATION.
+This file exists only to demonstrate the mining scripts. Every name, title,
+and claim below is fictional.
+
+Title: A Second Demonstration Article on Synthetic Retrieval
+Author: P. Ashgrove (Fictional Institute of Library Studies)
+
+Abstract
+
+This second fictional demonstration article revisits synthetic indexing from
+a retrieval angle. Vantree (2001) is cited again here to demonstrate
+cross-source deduplication. Ferris (2010) is introduced as a new,
+single-source reference lead.
+
+Body
+
+Section 1: A synthetic claim about retrieval order appears here, citing
+Vantree (2001) a second time within this document to test within-source
+deduplication too.
+
+References
+
+Vantree, R. (2001). Notes on Synthetic Card Indexing. Fictional Press.
+
+Ferris, K. (2010). Demonstration-Only Notes on Synthetic Retrieval Order.
+Fictional Retrieval Quarterly.

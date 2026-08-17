@@ -1,0 +1,4 @@
+source_slug,idea,where_stated,theme,priority,suggested_search_targets,raised_by_slugs
+synthetic-source-a,SYNTHETIC EXAMPLE CLAIM: card-based indexing schemes anticipate some structural features later associated with hypertext systems.,"Abstract, first paragraph",indexing-history,1,,synthetic-source-a;synthetic-source-b
+synthetic-source-a,SYNTHETIC EXAMPLE CLAIM: a 'record card' can function as a minimal information unit independent of the document it was extracted from.,"Body, Section 2",information-units,2,,synthetic-source-a
+synthetic-source-b,"SYNTHETIC EXAMPLE CLAIM: retrieval order, not just storage structure, determines how usable a demonstration indexing scheme is.","Abstract, second paragraph",retrieval-order,2,,synthetic-source-b

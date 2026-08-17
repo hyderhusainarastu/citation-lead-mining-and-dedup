@@ -1,0 +1,19 @@
+source_slug,cited_title,cited_authors,cited_year,cited_venue,identifier_as_printed,lead_type,theme,where_in_source,completeness
+synthetic-source-b,,"Vantree, R.",2001,,"Vantree, R. (2001). Notes on Synthetic Card Indexing. Fictional Press.",peer_reviewed_candidate,retrieval-order,references_list,full_citation
+synthetic-source-b,,"Ferris, K.",2010,,"Ferris, K. (2010). Demonstration-Only Notes on Synthetic Retrieval Order.",peer_reviewed_candidate,retrieval-order,references_list,full_citation
+synthetic-source-b,,Vantree,2001,,"visits synthetic indexing from
+a retrieval angle. Vantree (2001) is cited again here to demonstrate
+cross-source deduplication. Ferris (2010) is introduced as a new,
+single-source reference lead.
+
+Body
+
+Section 1:",peer_reviewed_candidate,retrieval-order,body_text,partial_citation
+synthetic-source-b,,Ferris,2010,,"n here to demonstrate
+cross-source deduplication. Ferris (2010) is introduced as a new,
+single-source reference lead.
+
+Body
+
+Section 1: A synthetic claim about retrieval order appears here, citing
+Vantree (2001) a",peer_reviewed_candidate,retrieval-order,body_text,partial_citation

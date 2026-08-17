@@ -1,0 +1,38 @@
+SYNTHETIC EXAMPLE TEXT -- NOT A REAL PUBLICATION.
+This file exists only to demonstrate the mining scripts. Every name, title,
+and claim below is fictional.
+
+Title: Notes Toward a Synthetic Indexing Scheme
+Author: R. Vantree (Fictional Institute of Library Studies)
+
+Abstract
+
+This fictional article proposes a synthetic indexing scheme for demonstration
+purposes. Vantree (2001) argued that card-based indexing anticipates some
+features of later hypertext systems. Okonkwo & Reyes (2004, 2006) extended
+this claim with a synthetic case study. The present demonstration text also
+references Fictional Bramwell (1998) in passing, without full bibliographic
+detail, to illustrate a partial in-text citation lead.
+
+Body
+
+Section 1: A synthetic claim about indexing structure appears here, citing
+Vantree (2001) again for emphasis. This paragraph exists only to give the
+body-citation regex something to find.
+
+Section 2: A second synthetic claim, unrelated to the first, discusses
+demonstration-only "record cards" as an information unit. No real citation
+appears in this sentence.
+
+References
+
+Vantree, R. (2001). Notes on Synthetic Card Indexing. Fictional Press.
+
+Okonkwo, T. & Reyes, M. (2004). A Synthetic Case Study in Demonstration
+Indexing. Journal of Fictional Library Science.
+
+Okonkwo, T. & Reyes, M. (2006). Revisiting Synthetic Indexing: A Follow-Up
+Demonstration. Journal of Fictional Library Science.
+
+Quillard, S. (1999). On Fictional Classification Schemes for Worked Examples.
+Demonstration University Press.
