@@ -33,21 +33,37 @@ mine-then-consolidate-then-dedup pattern applies to any pile of text
 documents you need to sweep for candidate follow-ups and cross-document
 corroboration.
 
-## Installation
+## Requirements
 
-This is an [Agent Skill](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)
-following the portable `SKILL.md` convention. To install it:
+Python 3.10 or newer (CI runs 3.10 and 3.12). Standard library only, nothing to install. Check the options with `python scripts/mine_leads.py --help`.
 
-- **Claude Code:** copy this folder into `.claude/skills/citation-lead-mining-and-dedup/`
-  in your project (or into your user-level skills directory to make it
-  available across projects).
-- **Any other agent runtime that supports the `SKILL.md` convention:** copy
-  this folder into that runtime's equivalent skills directory. The
-  `SKILL.md` frontmatter (`name`, `description`) and body are
-  runtime-agnostic.
+## Works with
 
-The bundled scripts also run standalone with no framework at all — see
-below.
+| Surface | How | Status |
+|---|---|---|
+| Claude Code | native skill (`SKILL.md`) | not tested |
+| Codex, Cursor, Gemini CLI | `.agents/skills/` skill, reads `AGENTS.md` | not tested |
+| Copilot | pointer in `.github/copilot-instructions.md` | not tested |
+| ChatGPT, Claude.ai, Gemini, local models | paste `PROMPT.md` | not tested |
+| Plain CLI | `python scripts/*.py` | tested 2026-11-23, Python 3.14 |
+
+## Quick start
+
+Install the skill with the shared installer (it only touches paths it owns; run `./install.sh -h` first):
+
+| Surface | Command |
+|---|---|
+| Claude Code (user) | `./install.sh --claude` |
+| Claude Code (project) | `./install.sh --claude --project DIR` |
+| Codex / `.agents/skills` | `./install.sh --agents --project DIR` |
+| Gemini CLI | `./install.sh --agents --project DIR --gemini` |
+| Cursor | `./install.sh --agents --project DIR --cursor` |
+| Copilot | `./install.sh --copilot --project DIR` |
+| ChatGPT, Claude.ai, Gemini | paste `PROMPT.md` into the chat |
+
+Add `--copy` to copy instead of symlink, `--dry-run` to preview, `--uninstall` to remove.
+
+The scripts also run standalone, see below. Run the tests with `python -m unittest discover -s tests`.
 
 ## Worked example (synthetic data)
 
@@ -125,6 +141,15 @@ project layout. See `SKILL.md` for the full methodology, CSV schemas, and
 the reasoning behind the dedup key fallback chain and the shortlist/gaps
 logic.
 
+## Related
+
+- [quote-verification-toolkit](https://github.com/hyderhusainarastu/quote-verification-toolkit): check quotes against their sources.
+- [scholarly-metadata-resolution-pattern](https://github.com/hyderhusainarastu/scholarly-metadata-resolution-pattern): resolve and verify citation metadata, the step after these leads.
+
+Keywords: citation mining, literature review, reference deduplication, bibliography, research leads, agent skill, SKILL.md.
+
 ## License
 
 MIT — see `LICENSE`.
+
+Part of palimnote-skills - more at https://github.com/hyderhusainarastu

@@ -1,6 +1,6 @@
 ---
 name: citation-lead-mining-and-dedup
-description: Mines candidate references and idea/claim leads out of extracted source text into per-source lead tables, then consolidates many sources' lead tables into deduplicated, cross-source-ranked follow-up tables (reference_leads.csv, hypothesis_leads.csv) and a prioritized shortlist. Invoke when a research or literature-review project has new extracted-text sources to sweep for follow-up leads, or when scattered per-source lead CSVs need merging into one ranked, deduplicated view.
+description: Mines candidate references and idea leads from extracted source text into per-source tables, then merges them into deduplicated, cross-source-ranked follow-up tables and a shortlist. Use when a literature-review project has new text sources to sweep or scattered lead CSVs to merge.
 ---
 
 # Citation Lead Mining and Dedup
